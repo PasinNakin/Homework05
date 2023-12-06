@@ -8,7 +8,7 @@
 
 }
 body {
-    background-image: url(https://picsum.photos/id/72/1920);
+    background-image: url(./72-3000x2000.jpg);
 }
 nav {
     text-align: end;    
@@ -28,7 +28,7 @@ h1 {
     /* border: 1px dashed; */
     margin: auto;
     width: 80%;
-    min-height: 100vh;
+    min-height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -92,10 +92,23 @@ h1 {
     padding-top: 5px;
 }
 .social button:hover {
-    box-shadow: 4px 2px 8px black;
+    box-shadow: 4px 2px 8px rgb(54, 54, 54);
+    transition: 0.3s;
+    transform: scale(1.1);
 } 
 .notify:hover {
     transform: scale(1.1);
     transition: 0.3s;
-    box-shadow: 4px 4px 8px gray;
+    box-shadow: 4px 4px 8px rgb(58, 58, 58);
+}
+
+.copyright {
+    width: 500px;
+    
+    text-align: center;
+    border-top: 2px solid;
+    color: white;
+    margin: auto;
+    padding-top: 8px;
+    
 }
